@@ -1,0 +1,323 @@
+@media print {
+	@page {
+		margin: 2cm 1cm;
+		size: A4 portrait
+	}
+
+	* {
+		font-size: 10pt !important;
+		-webkit-print-color-adjust: exact;
+		color-adjust: exact !important
+	}
+
+	body {
+		-webkit-print-color-adjust: exact !important;
+		color-adjust: exact !important;
+		margin: 0;
+		padding: 0;
+		line-height: 1.4
+	}
+
+	body,
+	html {
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		padding: 0
+	}
+
+	div[data-drupal-messages=""],
+	nav {
+		display: none
+	}
+
+	.article.full,
+	.container,
+	.content,
+	div,
+	p {
+		width: 100%;
+		border: 0;
+		color: #000;
+		float: none !important
+	}
+
+	.page-node-type-article .page-content-right {
+		background-image: none
+	}
+
+	.banner,
+	.footer,
+	.header-outer,
+	.page-contact-section,
+	.page-content-left,
+	.publication-download,
+	.region-footer>*,
+	.share-links {
+		display: none !important;
+		height: 0  !important;
+		width: 0  !important;
+		margin: 0 !important;
+	}
+
+	.container {
+		margin: 0;
+		width: 100%
+	}
+
+	.title-wrapper h1 span {
+		font-size: 20pt !important;
+		text-transform: uppercase !important;
+		font-weight: 600 !important
+	}
+
+	.article.full h2 {
+		font-size: 18pt !important
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		text-transform: uppercase !important;
+		font-weight: 600 !important
+	}
+
+	h1 {
+		font-size: 20pt !important
+	}
+
+	h2 {
+		font-size: 18pt !important
+	}
+
+	h3 {
+		font-size: 16pt !important
+	}
+
+	h4 {
+		font-size: 15pt !important
+	}
+
+	h5 {
+		font-size: 14pt !important
+	}
+
+	h6 {
+		font-size: 12pt !important
+	}
+
+	code {
+		font-size: 8pt !important
+	}
+
+	#backtotop {
+		display: none;
+		left: -1000px
+	}
+
+		.hljs,
+		.hljs span,
+		.hljs>* {
+			font-size: 8pt !important;
+			/*font-family: Arial, sans*/
+		}
+
+		.hljs {
+			display: block;
+			overflow-x: auto;
+			padding: .5em;
+			background: #23241f;
+			color: #fff;
+		}
+
+		/*.hljs-comment,
+		.hljs-quote {
+			color: #800
+		}
+
+		.hljs-keyword,
+		.hljs-name,
+		.hljs-section,
+		.hljs-selector-tag,
+		.hljs-title {
+			color: #008
+		}
+
+		.hljs-template-variable,
+		.hljs-variable {
+			color: #660
+		}
+
+		.hljs-regexp,
+		.hljs-selector-attr,
+		.hljs-selector-pseudo,
+		.hljs-string {
+			color: #080
+		}
+
+		.hljs-bullet,
+		.hljs-link,
+		.hljs-literal,
+		.hljs-meta,
+		.hljs-number,
+		.hljs-symbol {
+			color: #066
+		}
+
+		.hljs-attr,
+		.hljs-built_in,
+		.hljs-builtin-name,
+		.hljs-doctag,
+		.hljs-params,
+		.hljs-title,
+		.hljs-type {
+			color: #606
+		}
+
+		.hljs-attribute,
+		.hljs-subst {
+			color: #000
+		}
+
+		.hljs-formula {
+			background-color: #eee;
+			font-style: italic
+		}
+
+		.hljs-selector-class,
+		.hljs-selector-id {
+			color: #9b703f
+		}
+
+		.hljs-addition {
+			background-color: #baeeba
+		}
+
+		.hljs-deletion {
+			background-color: #ffc8bd
+		}
+
+		.hljs-doctag,
+		.hljs-strong {
+			font-weight: 700
+		}
+
+		.hljs-emphasis {
+			font-style: italic
+		}*/
+
+		.col-sm-1,
+		.col-sm-2,
+		.col-sm-3,
+		.col-sm-4,
+		.col-sm-5,
+		.col-sm-6,
+		.col-sm-7,
+		.col-sm-8,
+		.col-sm-9,
+		.col-sm-10,
+		.col-sm-11,
+		.col-sm-12 {
+			  float: left !important; 
+		}
+
+		.col-sm-12 {
+			width: 100%;
+		}
+
+		.col-sm-11 {
+			width: 91.66666667%;
+		}
+
+		.col-sm-10 {
+			width: 83.33333333%;
+		}
+
+		.col-sm-9 {
+			width: 75%;
+		}
+
+		.col-sm-8 {
+			width: 66.66666667%;
+		}
+
+		.col-sm-7 {
+			width: 58.33333333%;
+		}
+
+		.col-sm-6 {
+			width: 50%;
+		}
+
+		.col-sm-5 {
+			width: 41.66666667%;
+		}
+
+		.col-sm-4 {
+			width: 33.33333333%;
+		}
+
+		.col-sm-3 {
+			width: 25%;
+		}
+
+		.col-sm-2 {
+			width: 16.66666667%;
+		}
+
+		.col-sm-1 {
+			width: 8.33333333%;
+		}
+
+ .advisory .title-wrapper{
+    margin: 0 !important;
+     padding: 0 !important;
+  }
+
+  .advisory .row{
+     margin-top:  10px !important;
+     margin-bottom:  10px !important;
+     padding-top:  10px !important;
+     padding-bottom:  10px !important;
+  }
+  
+  .advisory .header-block {
+     min-height: 20px !important;;
+  }
+
+  .advisory h1,  .advisory h2,  .advisory h3,  .advisory h4,  .advisory h5,  .advisory h6 {
+    padding: 0 !important;
+    margin-top: 8px !important;
+    margin-bottom: 8px !important;		
+  }
+  
+  
+  .advisory .field--name-field-vuln-title{
+    font-size: 18pt !important;
+    text-transform: uppercase !important;
+    font-weight: 600 !important;
+  }
+  .advisory .logo {
+	margin: auto;
+	height: 100px;
+	display: block;
+  }
+  .advisory .paragraph--type--advisory-vulnerability {
+  	border: none;
+  }
+  
+  .pagebreak {
+        clear: both;
+        page-break-after: always;
+  }
+  pre code {
+   white-space: pre-wrap !important;
+  }
+	
+}
+
+
+
