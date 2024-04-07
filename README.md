@@ -7,10 +7,9 @@
 - SMTP Smuggling - Spoofing E-Mails Worldwide
 - Exploiting HTTP Parsers Inconsistencies
 - Three New Attacks Against JSON Web Tokens
+- HTTP Request Splitting vulnerabilities exploitation
 
 ## TODO
-
-- HTTP Request Splitting vulnerabilities exploitation
 
 - 
 
