@@ -11,7 +11,19 @@
 
 ## TODO
 
-- 
+- Atropos: Effective Fuzzing of Web Applications for Server-Side Vulnerabilities
+
+- Spider-Scents: Grey-box Database-aware Web Scanning for Stored XSS
+
+- Bernoulli Honeywords
+
+- TrustSketch: Trustworthy Sketch-based Telemetry on Cloud Hosts
+
+- Untangle: Multi-Layer Web Server Fingerprinting
+
+- More Haste, Less Speed: Cache Related Security Threats in Continuous Integration Services
+
+- Undefined-oriented Programming: Detecting and Chaining Prototype Pollution Gadgets in Node.js Template Engines for Malicious Consequences
 
   
 
