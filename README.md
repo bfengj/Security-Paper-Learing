@@ -1,5 +1,7 @@
 # Security Paper Learing
 
+记录阅读过的一些安全的文章或者论文。
+
 ## Finished
 
 - Smashing the state machine:the true potential of web race conditions
@@ -8,20 +10,21 @@
 - Exploiting HTTP Parsers Inconsistencies
 - Three New Attacks Against JSON Web Tokens
 - HTTP Request Splitting vulnerabilities exploitation
+- More Haste, Less Speed: Cache Related Security Threats in Continuous Integration Services
+- Devfile file write vulnerability in GitLab
+- An Exploration of JSON Interoperability Vulnerabilities
 
 ## TODO
+
+- eBPF’s Abilities and Limitations: The Truth
 
 - Atropos: Effective Fuzzing of Web Applications for Server-Side Vulnerabilities
 
 - Spider-Scents: Grey-box Database-aware Web Scanning for Stored XSS
 
-- Bernoulli Honeywords
-
 - TrustSketch: Trustworthy Sketch-based Telemetry on Cloud Hosts
 
 - Untangle: Multi-Layer Web Server Fingerprinting
-
-- More Haste, Less Speed: Cache Related Security Threats in Continuous Integration Services
 
 - Undefined-oriented Programming: Detecting and Chaining Prototype Pollution Gadgets in Node.js Template Engines for Malicious Consequences
 
