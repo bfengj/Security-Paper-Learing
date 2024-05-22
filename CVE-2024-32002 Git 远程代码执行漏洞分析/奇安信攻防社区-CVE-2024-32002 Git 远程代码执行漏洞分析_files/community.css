@@ -1,0 +1,18 @@
+.nav-tabs {
+  padding-right: 200px;
+  position: relative;
+}
+.community-btn-box {
+  text-align: right;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .nav-tabs.mt-20 {
+    margin-top: 5px;
+    padding-right: 0;
+  }
+  .community-btn-box{
+    display: none;
+  }
+}

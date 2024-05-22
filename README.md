@@ -13,6 +13,7 @@
 - More Haste, Less Speed: Cache Related Security Threats in Continuous Integration Services
 - Devfile file write vulnerability in GitLab
 - An Exploration of JSON Interoperability Vulnerabilities
+- CVE-2024-32002 Git 远程代码执行漏洞分析
 
 ## TODO
 
