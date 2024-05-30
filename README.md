@@ -15,6 +15,7 @@
 - An Exploration of JSON Interoperability Vulnerabilities
 - CVE-2024-32002 Git 远程代码执行漏洞分析
 - Modern WAF Bypass Techniques on Large Attack Surfaces
+- h2c Smuggling: Request Smuggling Via HTTP/2 Cleartext (h2c)
 
 ## TODO
 
