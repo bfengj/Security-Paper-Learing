@@ -1,0 +1,9 @@
+;(function()
+{SyntaxHighlighter=SyntaxHighlighter||(typeof require!=='undefined'?require('shCore').SyntaxHighlighter:null);function Brush()
+{var datatypes='boolean char byte int long float double void unsigned volatile word string static const';var keywords='setup loop if else for switch case default while do break continue return';var functions='pinMode digitalWrite digitalRead analogRead analogWrite shiftOut pulseIn '+
+'millis micros delay delayMicroseconds min max abs constrain '+
+'map pow sq sqrt sin cos tan randomSeed random '+
+'sizeof lowByte highByte bitRead bitWrite bitSet bitClear bit tone noTone'+
+'attachInterrupt detachInterrupt interrupts noInterrupts '+
+'Serial\\.begin Serial\\.available Serial\\.read Serial\\.flush '+
+'Serial\\.print Serial\\.println Serial\\.write ';var constants='HIGH LOW INPUT OUTPUT true false CHANGE RISING FALLING';this.regexList=[{regex:SyntaxHighlighter.regexLib.singleLineCComments,css:'comments'},{regex:SyntaxHighlighter.regexLib.multiLineCComments,css:'comments'},{regex:SyntaxHighlighter.regexLib.doubleQuotedString,css:'string'},{regex:SyntaxHighlighter.regexLib.singleQuotedString,css:'string'},{regex:/^ *#(.)+?\b/gm,css:'preprocessor'},{regex:new RegExp(this.getKeywords(datatypes),'gm'),css:'color1 bold'},{regex:new RegExp(this.getKeywords(functions),'gm'),css:'functions'},{regex:new RegExp(this.getKeywords(keywords),'gm'),css:'keyword bold'},{regex:new RegExp(this.getKeywords(constants),'gm'),css:'constants bold'},{regex:/\b(\d*\.\d+([Ee]-?\d{1,3})?)|(\d+[Ee]-?\d{1,3})\b/gm,css:'constants'},{regex:/\b\d+[uU]?[lL]?\b/gm,css:'constants'},{regex:/\b0x[0-9A-Fa-f]+[uU]?[lL]?\b/gm,css:'constants'},{regex:/\bB[01]{1,8}\b/gm,css:'constants'},{regex:/\+|\-|\*|\/|\%|!|\||\&amp;|=|\?|\^|~/gm,css:'plain bold'}];};Brush.prototype=new SyntaxHighlighter.Highlighter();Brush.aliases=['arduino','arduinolite'];SyntaxHighlighter.brushes.Arduino=Brush;typeof(exports)!='undefined'?exports.Brush=Brush:null;})();

@@ -1,6 +1,6 @@
 # Security Paper Learing
 
-记录阅读过的一些安全的文章或者论文。
+记录阅读过的一些安全漏洞分析的文章或者论文。
 
 ## Finished
 
@@ -17,6 +17,7 @@
 - Modern WAF Bypass Techniques on Large Attack Surfaces
 - h2c Smuggling: Request Smuggling Via HTTP/2 Cleartext (h2c)
 - Smudged Fingerprints: Characterizing and Improving the Performance of Web Application Fingerprinting
+- MongoDB NoSQL Injection with Aggregation Pipelines
 
 ## TODO
 
@@ -31,6 +32,8 @@
 - Untangle: Multi-Layer Web Server Fingerprinting
 
 - Undefined-oriented Programming: Detecting and Chaining Prototype Pollution Gadgets in Node.js Template Engines for Malicious Consequences
+
+- SoK: State of the Krawlers – Evaluating the Effectiveness of Crawling Algorithms for Web Security Measurements
 
   
 
